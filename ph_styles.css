@@ -15,19 +15,19 @@
 */
 
 
-font-face {
-  font-family: champagne;
-  src: url('cac_champagne.woff') format('woff'),
-       url('cac_champagne.ttf') format('truetype');
+@font-face {
+  font-family: Champagne;
+  src: url(cac_champagne.woff) format(woff); 
+       /*url('cac_champagne.ttf') format('truetype');*/
 }
 
-font-face {
+@font-face {
   font-family: grunge;
   src: url('1942.woff') format('woff'),
        url('1942.ttf') format('truetype');
 }
 
-font-face {
+@font-face {
   font-family: dobkin;
   src: url('DobkinPlain.woff') format('woff'),
        url('DobkinPlain.ttf') format('truetype');
