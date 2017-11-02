@@ -15,19 +15,19 @@
 */
 
 
-@font-face {
+font-face {
   font-family: champagne;
   src: url('cac_champagne.woff') format('woff'),
        url('cac_champagne.ttf') format('truetype');
 }
 
-@font-face {
+font-face {
   font-family: grunge;
   src: url('1942.woff') format('woff'),
        url('1942.ttf') format('truetype');
 }
 
-@font-face {
+font-face {
   font-family: dobkin;
   src: url('DobkinPlain.woff') format('woff'),
        url('DobkinPlain.ttf') format('truetype');
@@ -50,10 +50,7 @@ header{
 }
 
 p{
-  padding-top: 5px;
-  padding-right: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px;
+  padding: 5px 25px 25px 25px;
 }
 
 /* Navigation Styles */
