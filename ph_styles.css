@@ -17,8 +17,8 @@
 
 @font-face {
   font-family: Champagne;
-  src: url(cac_champagne.woff) format(woff); 
-       /*url('cac_champagne.ttf') format('truetype');*/
+  src: url('cac_champagne.woff') format('woff'),
+       url('cac_champagne.ttf') format('truetype');
 }
 
 @font-face {
@@ -37,7 +37,7 @@
  /*Structural Styles */
 
 html{
-background-color: hsl(91, 8%, 56%);
+background-color: hsl(21, 8%, 56%);
 }
 
 body{
