@@ -18,19 +18,19 @@
 @font-face {
   font-family: champagne;
   src: url('cac_champagne.woff') format('woff'),
-  src: url('cac_champagne.ttf') format('truetype');
+       url('cac_champagne.ttf') format('truetype');
 }
 
 @font-face {
   font-family: grunge;
   src: url('1942.woff') format('woff'),
-  src: url('1942.ttf') format('truetype');
+       url('1942.ttf') format('truetype');
 }
 
 @font-face {
   font-family: dobkin;
   src: url('DobkinPlain.woff') format('woff'),
-  src: url('DobkinPlain.ttf') format('truetype');
+       url('DobkinPlain.ttf') format('truetype');
 }
 
 
@@ -49,7 +49,12 @@ header{
   background-color: black;
 }
 
-
+p{
+  padding-top: 5px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
 
 /* Navigation Styles */
 
